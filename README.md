@@ -8,7 +8,7 @@
 **3DTalkingFace** is a project that can be used during video calls, reconstructing the face you specified in 3D and making it talk to the face in the image taken from the webcam.
 
 # Installation
-**3DTalkingFace** requires manually installation for some additional stuffs like [nvdiffrast](https://nvlabs.github.io/nvdiffrast/) and (insightface)[https://github.com/deepinsight/insightface]. Additional installation information can be found in the [Deep3DFaceRecon_pytorch](https://github.com/sicxu/Deep3DFaceRecon_pytorch) repository.
+**3DTalkingFace** requires manually installation for some additional stuffs like [nvdiffrast](https://nvlabs.github.io/nvdiffrast/) and [insightface](https://github.com/deepinsight/insightface). Additional installation information can be found in the [Deep3DFaceRecon_pytorch](https://github.com/sicxu/Deep3DFaceRecon_pytorch) repository.
 
 
 ## Build Dockerfile
