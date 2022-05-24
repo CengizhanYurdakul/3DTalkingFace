@@ -1,7 +1,9 @@
 # 3D TalkingFace
+The code base of this repository was developed using the [Deep3DFaceRecon_pytorch](https://github.com/sicxu/Deep3DFaceRecon_pytorch) repository.
 
-![Test](assets/vis.gif)
-
+<p align="center"> 
+    <img src="assets/vis.gif">
+</p>
 
 **3DTalkingFace** for video calls.
 
@@ -27,10 +29,16 @@ bash run.sh
 # Usage
 Target and camera angles can be adjusted from the menu that created with `tkinter`.
 
-![Menu](assets/menu.png)
+<p align="center"> 
+    <img src="assets/menu.png">
+</p>
 
 ## Zoom and Google Meet
 After the system is running with the `bash run.sh` command, the camera will open and the rendered face will be displayed. Then the zoom application will be opened and `TalkingHead` will be selected as the camera from the settings. The same process can be used for Google Meet as well.
 
-![Zoom](assets/zoom.png)
-![Meet](assets/meet.png)
+<p align="center"> 
+    <img src="assets/zoom.png">
+</p>
+<p align="center"> 
+    <img src="assets/meet.png">
+</p>
