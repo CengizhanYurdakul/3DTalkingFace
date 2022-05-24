@@ -16,10 +16,21 @@
 docker build -t talkingface .
 ```
 
-## Run Image
+## Inference
 ```
-docker run -it --runtime=nvidia --env="DISPLAY" --volume="/tmp/.X11-unix:/tmp/.X11-unix:rw" --network=host --device="/dev/video0:/dev/video0" --device=/dev/video9:/dev/video9 -v ${PWD}:/app talkingface
+bash run.sh
 ```
 
 ## Important!
 ### **Since I am working on face detection in another project, I cannot share it at the moment, but you can easily implement your own face detection network and make the system usable with only 5 landmark outputs. In the `main.py` file, detection initialization and inference parts are specified as #TODO on lines 62 and 121.**
+
+# Usage
+Target and camera angles can be adjusted from the menu that created with `tkinter`.
+
+![Menu](assets/menu.png)
+
+## Zoom and Google Meet
+After the system is running with the `bash run.sh` command, the camera will open and the rendered face will be displayed. Then the zoom application will be opened and `TalkingHead` will be selected as the camera from the settings. The same process can be used for Google Meet as well.
+
+![Zoom](assets/zoom.png)
+![Meet](assets/meet.png)
