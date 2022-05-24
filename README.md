@@ -1,6 +1,7 @@
 # 3D TalkingFace
 
-![](https://github.com/CengizhanYurdakul/3DTalkingFace/tree/master/assets/vis.gif)
+![](assets/vis.gif)
+
 
 **3DTalkingFace** for video calls.
 
