@@ -6,3 +6,9 @@ BFM/Exp_Pca.bin
 
 Detection/
 models/
+
+Org/
+OrgAligned/
+Gen/
+
+*.pyc
