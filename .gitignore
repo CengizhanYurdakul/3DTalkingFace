@@ -12,3 +12,6 @@ OrgAligned/
 Gen/
 
 *.pyc
+
+makeGif.py
+vis.py
