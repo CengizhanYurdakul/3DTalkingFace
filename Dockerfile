@@ -39,4 +39,4 @@ COPY . app/
 
 WORKDIR app/
 
-CMD ["python", "vis.py"]
+CMD ["python", "main.py"]
