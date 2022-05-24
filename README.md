@@ -27,7 +27,7 @@ bash run.sh
 ### **Since I am working on face detection in another project, I cannot share it at the moment, but you can easily implement your own face detection network and make the system usable with only 5 landmark outputs. In the `main.py` file, detection initialization and inference parts are specified as #TODO on lines 62 and 121.**
 
 # Usage
-Target and camera angles can be adjusted from the menu that created with `tkinter`.
+Target and camera angles can be adjusted from the menu that created with `tkinter`. If you want to use it with custom targets, it is enough to put the target image in the `Targets` folder.
 
 <p align="center"> 
     <img src="assets/menu.png">
